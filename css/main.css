@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eee;
+  margin: 0;
+  padding: 0; }
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .list-reset a {
+    text-decoration: none; }
+
+header {
+  background-color: #333333;
+  width: 100%;
+  height: 60px;
+  font-size: 30px; }
+  header nav ul {
+    display: flex;
+    justify-content: flex-end; }
+    header nav ul li {
+      margin: 30px 25px; }
+    header nav ul a {
+      color: #fff;
+      text-decoration: none;
+      border-right: 2px solid #ccc; }
+    header nav ul:last-child {
+      border-right: none; }
+
+/*# sourceMappingURL=main.css.map */

@@ -3,8 +3,27 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: $primary-font;
   background-color: #eee;
   margin: 0;
   padding: 0;
+}
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+
+p {
+  margin: 0;
+}
+small {
+  font-size: 14px;
+  font-style: italic;
 }

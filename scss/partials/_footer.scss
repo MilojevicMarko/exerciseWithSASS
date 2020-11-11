@@ -1,0 +1,26 @@
+footer {
+  padding: 25px 25px 25px;
+  margin: 50px 30px 50px 30px;
+  background-color: $grey;
+  color: $white;
+  font-family: $secondary-font;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  line-height: 1.2;
+  .footer-start {
+    font-size: 80px;
+    color: #00CC66;
+    line-height: 1;
+  }
+  .footer-end {
+    color: #6699CC;
+    display: block;
+  }
+}
+.footer-title{
+  border-top: 1px solid $grey;
+  padding: 25px 0 25px;
+  margin: 25px 25px 0 25px;
+}

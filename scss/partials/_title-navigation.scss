@@ -1,0 +1,14 @@
+.title-navigation {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 30px 50px 55px;
+  h3 {
+    padding-left: 55px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 16px;
+    color: $black;
+    padding-right: 25px;
+  }
+}
